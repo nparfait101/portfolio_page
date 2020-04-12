@@ -9,10 +9,17 @@
 </head>
 <body>
   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-
+  <style>@media only screen and (min-width: 700px)
+    {
+    nav {
+        margin: 0;
+        width: 100%;
+        position: fixed;
+    }
+    }</style>
 
   <!--Navigation bar-->
-  <nav>
+  <nav id="navbar">
     <a href="#projects">
     <div class="nav-div">
       <h2 class="nav-text">Projects</h2>
@@ -29,8 +36,6 @@
       <div class="nav-div">
       <h2 class="nav-text">Get in touch!</h2>
       </div></a>
-
-
   </nav>
 
 
@@ -45,9 +50,9 @@
   <!-- Projects section -->
 
   <section id="projects">
-      <div class="project">
+      <div class="project-tile">
        <!-- project here -->
-       <p>Click <a href="https://github.com/Joseph-Burke">here</a> to visit my GitHub profile! :)</p>
+       <p>Click <a href="https://github.com/Joseph-Burke" target="_blank" id="profile-link">here</a> to visit my GitHub profile! :)</p>
         <p>Click <a href="https://github.com/Joseph-Burke/HTML-CSS-Project"> here</a> to see a project!</p>
 
 
